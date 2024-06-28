@@ -1,20 +1,23 @@
 {
-    "name": "ace-builds",
-    "main": "./src-noconflict/ace.js",
-    "typings": "ace.d.ts",
-    "version": "1.4.12",
-    "description": "Ace (Ajax.org Cloud9 Editor)",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ajaxorg/ace-builds.git"
-    },
-    "author": "",
-    "license": "BSD-3-Clause",
-    "bugs": {
-        "url": "https://github.com/ajaxorg/ace-builds/issues"
-    },
-    "homepage": "https://github.com/ajaxorg/ace-builds"
+  "name": "url_shortner_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "shortid": "^2.2.14",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
